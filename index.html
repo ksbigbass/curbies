@@ -39,6 +39,150 @@
       <li>✔ Reflective paint for nighttime visibility</li>
     </ul>
   </div>
+  <div class="container">
+        <header class="header">
+            <h1>Curbie's Signature Address Packages</h1>
+            <p>Transform your home's first impression with our professional address solutions</p>
+        </header>
+
+        <div class="packages-grid">
+            <!-- Essential Package -->
+            <div class="package essential">
+                <div class="package-header">
+                    <h3 class="package-title">"Welcome Home" Essential</h3>
+                    <div class="package-price">$49</div>
+                </div>
+                <div class="package-content">
+                    <div class="feature-section">
+                        <h4>What You Get:</h4>
+                        <ul class="feature-list">
+                            <li><strong>Classic Visibility:</strong> Professionally installed, high-contrast house numbers (choose from standard black, white, or bronze) for clear legibility day and night.</li>
+                            <li><strong>Durable Finish:</strong> Weather-resistant paint designed to withstand the Kansas elements.</li>
+                            <li><strong>Clean & Simple Style:</strong> A choice of modern or traditional font styles to complement any home.</li>
+                        </ul>
+                    </div>
+                    <div class="perfect-for">
+                        <h5>Perfect for:</h5>
+                        <p>New homeowners, rentals, or anyone seeking a reliable, attractive, and easily visible address without fuss.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Premium Package -->
+            <div class="package premium">
+                <div class="package-header">
+                    <h3 class="package-title">"Elevated Appeal" Premium</h3>
+                    <div class="package-price">$99</div>
+                </div>
+                <div class="package-content">
+                    <div class="feature-section">
+                        <h4>Enhanced Visibility & Style:</h4>
+                        <ul class="feature-list">
+                            <li>All features of the "Welcome Home" Essential, PLUS:</li>
+                            <li><strong>Reflective Accents:</strong> Numbers finished with a subtle reflective coating for increased nighttime visibility, catching headlights and moonlight.</li>
+                            <li><strong>Custom Color Palette:</strong> Choose from an expanded selection of colors (e.g., brushed nickel, matte gold, deep charcoal) to perfectly match your home's exterior.</li>
+                            <li><strong>Subtle Design Flourish:</strong> Option for a simple, elegant graphic detail (e.g., a discreet border, a small leaf motif) to add a touch of personality.</li>
+                        </ul>
+                    </div>
+                    <div class="perfect-for">
+                        <h5>Perfect for:</h5>
+                        <p>Homeowners looking to add a noticeable upgrade to their curb appeal with improved functionality and a refined aesthetic.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Showcase Package -->
+            <div class="package showcase">
+                <div class="badge">Popular</div>
+                <div class="package-header">
+                    <h3 class="package-title">"Distinctive Duo" Showcase</h3>
+                    <div class="package-price">$199</div>
+                </div>
+                <div class="package-content">
+                    <div class="feature-section">
+                        <h4>Personalized Masterpiece:</h4>
+                        <ul class="feature-list">
+                            <li>All features of the "Elevated Appeal" Premium, PLUS:</li>
+                            <li><strong>Custom Crafted Plaque:</strong> Your house numbers are beautifully mounted on a high-quality, weather-resistant plaque (choice of wood, metal, or composite materials) designed to complement your home's architecture.</li>
+                            <li><strong>Integrated Lighting Option (Solar):</strong> A subtle, solar-powered LED backlight or spotlight to elegantly illuminate your numbers from dusk till dawn, ensuring year-round visibility and a sophisticated glow.</li>
+                            <li><strong>Two Thematic Designs per Year:</strong> We provide two distinct design options (e.g., Spring/Summer vibrant, Autumn/Winter cozy) that you choose from, and we refresh your plaque with the new theme once per year.</li>
+                        </ul>
+                    </div>
+                    <div class="perfect-for">
+                        <h5>Perfect for:</h5>
+                        <p>Homeowners who want a truly custom, eye-catching address display that also offers practical illumination and seasonal charm.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Concierge Package -->
+            <div class="package concierge">
+                <div class="badge">Luxury</div>
+                <div class="package-header">
+                    <h3 class="package-title">"Luminous Landmark" Concierge</h3>
+                    <div class="package-price">$499</div>
+                </div>
+                <div class="package-content">
+                    <div class="feature-section">
+                        <h4>Unparalleled Elegance & Service:</h4>
+                        <ul class="feature-list">
+                            <li>All features of the "Distinctive Duo" Showcase, PLUS:</li>
+                            <li><strong>Premium Material Selection:</strong> Choose from luxury materials like brushed stainless steel, copper, or a custom-cut acrylic with precision-etched details.</li>
+                            <li><strong>Dynamic, Smart LED Illumination:</strong> Hardwired, energy-efficient LED lighting with programmable color and brightness settings, controllable via a smartphone app (for specific ambiance or holiday themes).</li>
+                            <li><strong>Quarterly Thematic Transformations:</strong> Four seasonal or holiday-themed design changes per year, personally curated and installed by our "Curbie's Concierge" team.</li>
+                            <li><strong>Personalized Design Consultation:</strong> A dedicated design consultant to work with you on bespoke themes, font choices, and lighting effects.</li>
+                            <li><strong>Annual Maintenance & Cleaning:</strong> Professional cleaning and inspection of your address display each year to maintain its pristine condition.</li>
+                        </ul>
+                    </div>
+                    <div class="perfect-for">
+                        <h5>Perfect for:</h5>
+                        <p>Discerning homeowners who desire the ultimate in luxury, technological sophistication, dynamic personalization, and white-glove, hands-free service for their home's first impression.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2 style="margin-bottom: 20px; font-size: 2.2rem;">Ready to Transform Your Home's First Impression?</h2>
+            <p style="margin-bottom: 30px; font-size: 1.1rem; opacity: 0.9;">Contact Curbie's today to schedule your consultation and choose the perfect package for your home.</p>
+            <a href="#" class="cta-button">Get Started Today</a>
+        </div>
+    </div>
+
+    <script>
+        // Add smooth scroll animation when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            const packages = document.querySelectorAll('.package');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            packages.forEach((package) => {
+                package.style.opacity = '0';
+                package.style.transform = 'translateY(20px)';
+                package.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(package);
+            });
+        });
+
+        // Add click effects to packages
+        document.querySelectorAll('.package').forEach(package => {
+            package.addEventListener('click', function() {
+                this.style.transform = 'scale(0.98)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 150);
+            });
+        });
+    </script>
 
   <div class="section" id="about">
     <h2>Why Choose Curbies?</h2>
