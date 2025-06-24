@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://curbies.net/</loc>
+    <lastmod>2025-06-23</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://curbies.net/services</loc>
+    <lastmod>2025-06-23</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://curbies.net/about</loc>
+    <lastmod>2025-06-23</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://curbies.net/contact</loc>
+    <lastmod>2025-06-23</lastmod>
+    <priority>0.60</priority>
+  </url>
+
+</urlset>

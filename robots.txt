@@ -1,0 +1,58 @@
+# robots.txt for curbies.net
+# Optimized for SEO and search engine visibility
+
+User-agent: *
+Allow: /
+
+# Block access to admin/private areas (if they exist)
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+
+# Block access to system files and sensitive file types
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.log$
+Disallow: /*.sql$
+Disallow: /*.tgz$
+Disallow: /*.gz$
+
+# Block duplicate content from URL parameters (if not needed for SEO)
+Disallow: /*?*
+Disallow: /*&*
+Disallow: /*sort=
+Disallow: /*filter=
+
+# Block search results pages (if they exist)
+Disallow: /search/
+Disallow: /*search*
+
+# Allow important asset directories (if not otherwise blocked)
+Allow: /wp-content/uploads/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://curbies.net/sitemap.xml
+Sitemap: https://curbies.net/sitemap_index.xml
+
+# Crawl delay (uncomment if needed)
+# Crawl-delay: 1
+
+# Explicitly allow major search engines (not strictly necessary, but harmless)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
